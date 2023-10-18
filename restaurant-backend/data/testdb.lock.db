@@ -1,0 +1,6 @@
+#FileLock
+#Wed Oct 18 11:41:11 SGT 2023
+hostName=ambsg000015
+id=18b40df7bd3440a3ab28f351a373f77acb7c6ac83d5
+method=file
+server=192.168.10.118\:10990
