@@ -1,0 +1,29 @@
+<div style="height: 100vh; display: flex; align-items: center; justify-content: center; background-image: url('https://picsum.photos/1536/735?grayscale'); background-repeat: no-repeat; background-size: cover;">
+  <div class="container form-group w-25 mx-auto" style="height: 30vh; background-image: url('https://picsum.photos/1536/735?grayscale'); background-repeat: no-repeat; background-size: cover; display: flex; flex-direction: column; align-items: center;">
+
+    <table>
+      <tbody>
+        <tr>
+          <td style="font-size: 28px; color: #e83f3f;white-space: nowrap;"><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Welcome to Restaurant Finder</b></td>
+        </tr>
+        <tr>
+          <td style="font-size: 22px; color: #809e08;"><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Start your session</b></td>
+        </tr>
+        <tr>
+          <td >
+            <input type="text" style="font-size: 34px; " class="rounded-3 form-control" placeholder="Name" [(ngModel)]="username" (keyup.enter)="handleLogin()" />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <button type="button" (click)="handleLogin()" class="btn btn-primary">
+              <span>Connect</span>
+            </button>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+
+  </div>
+</div>
+
