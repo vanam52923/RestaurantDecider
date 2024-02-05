@@ -1,10 +1,10 @@
 # RestaurantVenue
  Restaurant Venvue decider application
  
-# Chat Application Project
+# Application Project
   This application allows users to join a session to decide the restaurant for the outing. An additional feature is users can chat with each other in real time to decide the venue but submission will be admissible only from restaurant form not from the chat window.
   It has been built using the Spring Boot framework for the backend, SockJS for WebSocket communication, 
-  , h2 database for data storage and Reactjs for the frontend. The project utilizes Maven as the build tool for the backend.
+  , h2 database for data storage and Angular for the frontend. The project utilizes Maven as the build tool for the backend.
 
 ## Features
 - __Session__creation__: Users can create a session and invite others via created link or can join an ongoing session via shared link.
