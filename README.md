@@ -20,25 +20,24 @@ The application incorporates the following technologies:
 
 - __Spring Boot__: A Java-based framework used for building the backend server and handling business logic.
 - __SockJS__: A WebSocket  library that enables two-way, real-time communication between the server and clients.
-- __React__: A JavaScript library for building frontend.
+- __Angular__: A framework for building frontend.
 ## Setup Instructions
 To run the application locally, follow these steps:
 
-1. __Clone the repository__: ``` git@github.com:vanam52923/RestaurantVenue.git```
+1. __Clone the repository__: ``` https://github.com/vanam52923/RestaurantDecider.git```
 2. __Navigate to the project directory__: ```cd restaurant-backend```
 3. __Set up the backend server__:
    - Install the dependencies: ```mvn clean install```
    - Start the Spring Boot server: ```mvn spring-boot:run```
 4. __Set up the frontend__:
    - Install the dependencies: ```cd restaurant-ui``` && ```npm install```
-   - Start the React server: ```npm run dev```
-5. __Open your application__ ```http://localhost:5173```
+   - Start the React server: ```ng serve```
+5. __Open your application__ ```http://localhost:4200```
 
 ## Application flow
 
 Detailed application flow can be found here : 
 
-https://drive.google.com/file/d/1ri8QETViKV0w3f1FX4QiFZSQzuznp-TS/view?usp=sharing
 
 Feel free to enhance the application as per your requirement.
 
